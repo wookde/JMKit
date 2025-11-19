@@ -1,17 +1,25 @@
 PODS:
   - JMKit (0.0.2):
     - JMKit/JMCategory (= 0.0.2)
-  - JMKit/JMCategory (0.0.2)
+    - Masonry
+  - JMKit/JMCategory (0.0.2):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - JMKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   JMKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JMKit: 201c5c9451cbb1b5bb7b4c6091e57c887101390f
+  JMKit: 7bca6323f007117387573bc13619dc262b2d0b89
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 239979fdf1b66a3d87c97ec922c34dc10f9dbf59
 

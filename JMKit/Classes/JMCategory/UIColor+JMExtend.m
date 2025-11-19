@@ -7,6 +7,7 @@
 
 #import "UIColor+JMExtend.h"
 
+
 @implementation UIColor (JMExtend)
 
 + (UIColor *)jm_colorWithHexString:(NSString *)color alpha:(CGFloat)alpha {
