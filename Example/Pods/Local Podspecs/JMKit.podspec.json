@@ -1,0 +1,28 @@
+{
+  "name": "JMKit",
+  "version": "0.0.2",
+  "summary": "私有pod库示例：JMKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wookde/JMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wookde": "ljmdev@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wookde/JMKit.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JMKit/Classes/JMKit.h",
+  "subspecs": [
+    {
+      "name": "JMCategory",
+      "source_files": "JMKit/Classes/JMCategory/**/*"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module JMKit {
+  umbrella header "JMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

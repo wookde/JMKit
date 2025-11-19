@@ -1,0 +1,18 @@
+PODS:
+  - JMKit (0.0.2):
+    - JMKit/JMCategory (= 0.0.2)
+  - JMKit/JMCategory (0.0.2)
+
+DEPENDENCIES:
+  - JMKit (from `../`)
+
+EXTERNAL SOURCES:
+  JMKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JMKit: 201c5c9451cbb1b5bb7b4c6091e57c887101390f
+
+PODFILE CHECKSUM: 239979fdf1b66a3d87c97ec922c34dc10f9dbf59
+
+COCOAPODS: 1.16.2
