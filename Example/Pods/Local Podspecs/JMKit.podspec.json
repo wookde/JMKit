@@ -1,6 +1,6 @@
 {
   "name": "JMKit",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "summary": "私有pod库示例：JMKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wookde/JMKit",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/wookde/JMKit.git",
-    "tag": "0.0.3"
+    "tag": "0.0.5"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "JMKit/Classes/JMKit.h",
+  "resource_bundles": {
+    "JMKit": [
+      "JMKit/Assets/*.png"
+    ]
+  },
   "dependencies": {
     "Masonry": [
 
@@ -28,6 +33,10 @@
     {
       "name": "JMCategory",
       "source_files": "JMKit/Classes/JMCategory/**/*"
+    },
+    {
+      "name": "JMImageView",
+      "source_files": "JMKit/Classes/JMImageView/**/*"
     }
   ]
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JMKit'
-  s.version          = '0.0.3'
+  s.version          = '0.0.5'
   s.summary          = '私有pod库示例：JMKit.'
 
 # This description is used to generate tags and improve search results.
@@ -37,9 +37,13 @@ TODO: Add long description of the pod here.
       ss.source_files = 'JMKit/Classes/JMCategory/**/*'
   end
   
-  # s.resource_bundles = {
-  #   'JMKit' => ['JMKit/Assets/*.png']
-  # }
+  s.subspec 'JMImageView' do |ss|
+      ss.source_files = 'JMKit/Classes/JMImageView/**/*'
+  end
+  
+   s.resource_bundles = {
+     'JMKit' => ['JMKit/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

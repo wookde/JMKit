@@ -10,6 +10,6 @@
 
 #import "UIColor+JMExtend.h"
 #import "NSString+JMExtend.h"
-
+#import "JMImageView.h"
 
 #endif /* JMKit_h */

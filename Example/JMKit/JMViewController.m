@@ -24,6 +24,10 @@
     
     NSString *result = [@"liujiemin" jm_md5String_32];
     NSLog(@"liujiemin的MD5值为：%@", result);
+    
+    JMImageView *imageView = [[JMImageView alloc] initWithFrame:CGRectMake(30, 100, 80, 80)];
+    imageView.backgroundColor = [UIColor jm_colorWithHexString:@"0X112233"];
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning

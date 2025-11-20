@@ -1,8 +1,11 @@
 PODS:
-  - JMKit (0.0.3):
-    - JMKit/JMCategory (= 0.0.3)
+  - JMKit (0.0.5):
+    - JMKit/JMCategory (= 0.0.5)
+    - JMKit/JMImageView (= 0.0.5)
     - Masonry
-  - JMKit/JMCategory (0.0.3):
+  - JMKit/JMCategory (0.0.5):
+    - Masonry
+  - JMKit/JMImageView (0.0.5):
     - Masonry
   - Masonry (1.1.0)
 
@@ -18,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JMKit: 92e088268a0bfe1238fd0ab796079b7c2b72238c
+  JMKit: 1704cb4a14662a48137e4a25d8e74769df6d88b0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 1d9cac979407edfa72eaec771d43a40b3c82e623
